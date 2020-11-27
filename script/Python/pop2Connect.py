@@ -2,8 +2,9 @@
 
 import socket
 try:
+    host = 'IP'
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.connect(("195.177.177.17",110))
+    s.connect((host,110))
     r = s.recv(1024)
     print r
 

