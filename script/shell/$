@@ -1,0 +1,324 @@
+[15:58:35:480] [187723:187724] [INFO][com.freerdp.core] - freerdp_connect:freerdp_set_last_error_ex resetting error state
+[15:58:35:480] [187723:187724] [INFO][com.freerdp.client.common.cmdline] - loading channelEx rdpdr
+[15:58:35:480] [187723:187724] [INFO][com.freerdp.client.common.cmdline] - loading channelEx rdpsnd
+[15:58:35:481] [187723:187724] [INFO][com.freerdp.client.common.cmdline] - loading channelEx cliprdr
+[15:58:35:504] [187723:187724] [INFO][com.freerdp.client.x11] - Property 259 does not exist
+[15:58:35:831] [187723:187724] [INFO][com.freerdp.primitives] - primitives autodetect, using optimized
+[15:58:35:837] [187723:187724] [INFO][com.freerdp.core] - freerdp_tcp_is_hostname_resolvable:freerdp_set_last_error_ex resetting error state
+[15:58:35:837] [187723:187724] [INFO][com.freerdp.core] - freerdp_tcp_connect:freerdp_set_last_error_ex resetting error state
+[15:58:36:670] [187723:187724] [INFO][com.freerdp.core.license] - ProductInfo:
+[15:58:36:670] [187723:187724] [INFO][com.freerdp.core.license] - 	dwVersion: 0x00040000
+[15:58:36:670] [187723:187724] [INFO][com.freerdp.core.license] - 	CompanyName: Microsoft Corporation
+[15:58:36:670] [187723:187724] [INFO][com.freerdp.core.license] - 	ProductId: 236
+[15:58:36:670] [187723:187724] [INFO][com.freerdp.core.license] - ScopeList (1):
+[15:58:36:670] [187723:187724] [INFO][com.freerdp.core.license] - 	microsoft.com
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - ShareCapabilitySet (length 4):
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	nodeId: 0x03EA
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2Octets: 0xE2B5
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - GeneralCapabilitySet (length 20):
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	osMajorType: 0x0001
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	osMinorType: 0x0003
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	protocolVersion: 0x0200
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsA: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	generalCompressionTypes: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	extraFlags: 0x0401
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	updateCapabilityFlag: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	remoteUnshareFlag: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	generalCompressionLevel: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	refreshRectSupport: 0x01
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	suppressOutputSupport: 0x01
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - BitmapCapabilitySet (length 24):
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	preferredBitsPerPixel: 0x0010
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	receive1BitPerPixel: 0x0001
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	receive4BitsPerPixel: 0x0001
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	receive8BitsPerPixel: 0x0001
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopWidth: 0x0400
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopHeight: 0x0300
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2Octets: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopResizeFlag: 0x0001
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCompressionFlag: 0x0001
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	highColorFlags: 0x00
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	drawingFlags: 0x00
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	multipleRectangleSupport: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsB: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - FontCapabilitySet (length 0):
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	fontSupportFlags: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2Octets: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - OrderCapabilitySet (length 84):
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad4OctetsA: 0x000F4240
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopSaveXGranularity: 0x0001
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopSaveYGranularity: 0x0014
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsA: 0x0000
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	maximumOrderLevel: 0x0001
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	numberFonts: 0x002F
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	orderFlags: 0x0022
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	orderSupport:
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		DSTBLT: 1
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		PATBLT: 1
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		SCRBLT: 1
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MEMBLT: 1
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MEM3BLT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		ATEXTOUT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		AEXTTEXTOUT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		DRAWNINEGRID: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		LINETO: 1
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTI_DRAWNINEGRID: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		OPAQUE_RECT: 1
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		SAVEBITMAP: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		WTEXTOUT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MEMBLT_V2: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MEM3BLT_V2: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTIDSTBLT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTIPATBLT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTISCRBLT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTIOPAQUERECT: 1
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		FAST_INDEX: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		POLYGON_SC: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		POLYGON_CB: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		POLYLINE: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		UNUSED23: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		FAST_GLYPH: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		ELLIPSE_SC: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		ELLIPSE_CB: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		GLYPH_INDEX: 1
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		GLYPH_WEXTTEXTOUT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		GLYPH_WLONGTEXTOUT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		GLYPH_WLONGEXTTEXTOUT: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		UNUSED31: 0
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	textFlags: 0x06A1
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	orderSupportExFlags: 0x0002
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad4OctetsB: 0x000F4240
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopSaveSize: 0x000F4240
+[15:58:36:770] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsC: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsD: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	textANSICodePage: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsE: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - BitmapCodecsCapabilitySet (length 89):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCodecCount: 4
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecGuid: 0x
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - CA8D1BB9000F154F589FAE2D1A87E2D6
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] -  (CODEC_GUID_NSCODEC)
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecId: 1
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecPropertiesLength: 3
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecGuid: 0x
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 76772F12BD724463AFB3B73C9C6F7886
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] -  (CODEC_GUID_REMOTEFX)
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecId: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecPropertiesLength: 4
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecGuid: 0x
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 2744CCD49D8A4E74803C0ECBEEA19C54
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] -  (CODEC_GUID_IMAGE_REMOTEFX)
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecId: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecPropertiesLength: 4
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecGuid: 0x
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 1BAF4CE69EED430C869ACB8B37B66237
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] -  (CODEC_GUID_UNKNOWN)
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecId: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	codecPropertiesLength: 1
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - ColorCacheCapabilitySet (length 4):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	colorTableCacheSize: 0x0006
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2Octets: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - PointerCapabilitySet (length 6):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	colorPointerFlag: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	colorPointerCacheSize: 0x0019
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pointerCacheSize: 0x0019
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - InputCapabilitySet (length 84)
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	inputFlags: 0x013D
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsA: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	keyboardLayout: 0x00000000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	keyboardType: 0x00000000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	keyboardSubType: 0x00000000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	keyboardFunctionKey: 0x00000000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - BitmapCacheV3CodecIdCapabilitySet (length 1):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCacheV3CodecId: 0x00
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - MultifragmentUpdateCapabilitySet (length 4):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	maxRequestSize: 0x00300000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - FrameAcknowledgeCapabilitySet (length 4):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	frameAcknowledge: 0x00000002
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Receiving 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - SurfaceCommandsCapabilitySet (length 8):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	cmdFlags: 0x00000052
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	reserved: 0x00000000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - GeneralCapabilitySet (length 20):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	osMajorType: 0x0004
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	osMinorType: 0x0007
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	protocolVersion: 0x0200
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsA: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	generalCompressionTypes: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	extraFlags: 0x0401
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	updateCapabilityFlag: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	remoteUnshareFlag: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	generalCompressionLevel: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	refreshRectSupport: 0x01
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	suppressOutputSupport: 0x01
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - BitmapCapabilitySet (length 24):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	preferredBitsPerPixel: 0x0010
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	receive1BitPerPixel: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	receive4BitsPerPixel: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	receive8BitsPerPixel: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopWidth: 0x0400
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopHeight: 0x0300
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2Octets: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopResizeFlag: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCompressionFlag: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	highColorFlags: 0x00
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	drawingFlags: 0x00
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	multipleRectangleSupport: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsB: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - OrderCapabilitySet (length 84):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad4OctetsA: 0x00000000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopSaveXGranularity: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopSaveYGranularity: 0x0014
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsA: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	maximumOrderLevel: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	numberFonts: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	orderFlags: 0x002A
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	orderSupport:
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		DSTBLT: 1
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		PATBLT: 1
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		SCRBLT: 1
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MEMBLT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MEM3BLT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		ATEXTOUT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		AEXTTEXTOUT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		DRAWNINEGRID: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		LINETO: 1
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTI_DRAWNINEGRID: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		OPAQUE_RECT: 1
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		SAVEBITMAP: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		WTEXTOUT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MEMBLT_V2: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MEM3BLT_V2: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTIDSTBLT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTIPATBLT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTISCRBLT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		MULTIOPAQUERECT: 1
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		FAST_INDEX: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		POLYGON_SC: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		POLYGON_CB: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		POLYLINE: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		UNUSED23: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		FAST_GLYPH: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		ELLIPSE_SC: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		ELLIPSE_CB: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		GLYPH_INDEX: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		GLYPH_WEXTTEXTOUT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		GLYPH_WLONGTEXTOUT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		GLYPH_WLONGEXTTEXTOUT: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 		UNUSED31: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	textFlags: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	orderSupportExFlags: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad4OctetsB: 0x00000000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	desktopSaveSize: 0x00038400
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsC: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsD: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	textANSICodePage: 0xFDE9
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsE: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - BitmapCacheV2CapabilitySet (length 36):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	cacheFlags: 0x0002
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2: 0x00
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	numCellCaches: 0x05
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCache0CellInfo: numEntries: 600 persistent: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCache1CellInfo: numEntries: 600 persistent: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCache2CellInfo: numEntries: 2048 persistent: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCache3CellInfo: numEntries: 4096 persistent: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCache4CellInfo: numEntries: 2048 persistent: 0
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - PointerCapabilitySet (length 6):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	colorPointerFlag: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	colorPointerCacheSize: 0x0014
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pointerCacheSize: 0x0014
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - InputCapabilitySet (length 84)
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	inputFlags: 0x013D
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsA: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	keyboardLayout: 0x00000416
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	keyboardType: 0x00000004
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	keyboardSubType: 0x00000000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	keyboardFunctionKey: 0x0000000C
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - BrushCapabilitySet (length 4):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	brushSupportLevel: 0x00000002
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - GlyphCacheCapabilitySet (length 48):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache0: Entries: 254 MaximumCellSize: 4
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache1: Entries: 254 MaximumCellSize: 4
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache2: Entries: 254 MaximumCellSize: 8
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache3: Entries: 254 MaximumCellSize: 8
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache4: Entries: 254 MaximumCellSize: 16
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache5: Entries: 254 MaximumCellSize: 32
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache6: Entries: 254 MaximumCellSize: 64
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache7: Entries: 254 MaximumCellSize: 128
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache8: Entries: 254 MaximumCellSize: 256
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphCache9: Entries: 64 MaximumCellSize: 256
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	fragCache: Entries: 256 MaximumCellSize: 256
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	glyphSupportLevel: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2Octets: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - VirtualChannelCapabilitySet (length 8):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	flags: 0x00000000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	VCChunkSize: 0x00000640
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - SoundCapabilitySet (length 4):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	soundFlags: 0x0001
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2OctetsA: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - ShareCapabilitySet (length 4):
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	nodeId: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2Octets: 0x0000
+[15:58:36:771] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - FontCapabilitySet (length 4):
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	fontSupportFlags: 0x0001
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2Octets: 0x0000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - ControlCapabilitySet (length 8):
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	controlFlags: 0x0000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	remoteDetachFlag: 0x0000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	controlInterest: 0x0002
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	detachInterest: 0x0002
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - ColorCacheCapabilitySet (length 4):
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	colorTableCacheSize: 0x0006
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	pad2Octets: 0x0000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - WindowActivationCapabilitySet (length 8):
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	helpKeyFlag: 0x0000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	helpKeyIndexFlag: 0x0000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	helpExtendedKeyFlag: 0x0000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	windowManagerKeyFlag: 0x0000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - MultifragmentUpdateCapabilitySet (length 4):
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	maxRequestSize: 0x00300000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - SurfaceCommandsCapabilitySet (length 8):
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	cmdFlags: 0x00000052
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	reserved: 0x00000000
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - BitmapCodecsCapabilitySet (length 1):
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	bitmapCodecCount: 0
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - Sending 
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - FrameAcknowledgeCapabilitySet (length 4):
+[15:58:36:772] [187723:187724] [INFO][com.freerdp.core.capabilities] - 	frameAcknowledge: 0x00000002
+[15:58:36:873] [187723:187724] [INFO][com.freerdp.gdi] - Local framebuffer format  PIXEL_FORMAT_BGRX32
+[15:58:36:873] [187723:187724] [INFO][com.freerdp.gdi] - Remote framebuffer format PIXEL_FORMAT_RGB16
+[15:58:36:962] [187723:187724] [INFO][com.winpr.clipboard] - initialized POSIX local file subsystem
+[15:58:36:062] [187723:187724] [INFO][com.freerdp.channels.rdpsnd.client] - [static] Loaded fake backend for rdpsnd
+[15:58:36:084] [187723:187739] [INFO][com.freerdp.channels.cliprdr.client] - generalFlags (0x00000000) {
+[15:58:36:084] [187723:187739] [INFO][com.freerdp.channels.cliprdr.client] - }
+[15:58:39:818] [187723:187724] [INFO][com.freerdp.client.x11] - Closed from X11
