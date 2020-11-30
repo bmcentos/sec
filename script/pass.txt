@@ -1,0 +1,4 @@
+admin
+administrador
+smithy
+password

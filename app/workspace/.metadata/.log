@@ -1,0 +1,269 @@
+!SESSION 2020-11-27 16:47:21.224 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_212
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.685
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.ui.web_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.ui.web" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.ui.web_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.690
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.beans_1.2.200.v20120523-1956.jar   Bundle "org.eclipse.core.databinding.beans" version "1.2.200.v20120523-1956" has already been installed from: reference:file:plugins/org.eclipse.core.databinding.beans_1.2.200.v20120523-1956.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.695
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.ui.http_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.ui.http" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.ui.http_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.696
+!MESSAGE Could not install bundle plugins/org.eclipse.core.expressions_3.4.400.v20120523-2004.jar   Bundle "org.eclipse.core.expressions" version "3.4.400.v20120523-2004" has already been installed from: reference:file:plugins/org.eclipse.core.expressions_3.4.400.v20120523-2004.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.698
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.scanner_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.scanner" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.scanner_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.699
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.application_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.application" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.application_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.706
+!MESSAGE Could not install bundle plugins/org.eclipse.core.contenttype_3.4.200.v20120523-2004.jar   Bundle "org.eclipse.core.contenttype" version "3.4.200.v20120523-2004" has already been installed from: reference:file:plugins/org.eclipse.core.contenttype_3.4.200.v20120523-2004.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.708
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding_1.4.1.v20120521-2332.jar   Bundle "org.eclipse.core.databinding" version "1.4.1.v20120521-2332" has already been installed from: reference:file:plugins/org.eclipse.core.databinding_1.4.1.v20120521-2332.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.713
+!MESSAGE Could not install bundle plugins/org.apache.felix.gogo.shell_0.8.0.v201110170705.jar   Bundle "org.apache.felix.gogo.shell" version "0.8.0.v201110170705" has already been installed from: reference:file:plugins/org.apache.felix.gogo.shell_0.8.0.v201110170705.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.716
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.text_3.8.0.v20120531-0600.jar   Bundle "org.eclipse.jface.text" version "3.8.0.v20120531-0600" has already been installed from: reference:file:plugins/org.eclipse.jface.text_3.8.0.v20120531-0600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.719
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.ui.util_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.ui.util" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.ui.util_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.723
+!MESSAGE Could not install bundle plugins/org.eclipse.core.jobs_3.5.200.v20120521-2346.jar   Bundle "org.eclipse.core.jobs" version "3.5.200.v20120521-2346" has already been installed from: reference:file:plugins/org.eclipse.core.jobs_3.5.200.v20120521-2346.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.728
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.bidi_0.9.0.v20120522-1841.jar   Bundle "org.eclipse.equinox.bidi" version "0.9.0.v20120522-1841" has already been installed from: reference:file:plugins/org.eclipse.equinox.bidi_0.9.0.v20120522-1841.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.733
+!MESSAGE Could not install bundle plugins/org.eclipse.rcp_3.8.0.v201206081200.jar   Bundle "org.eclipse.rcp" version "3.8.0.v201206081200" has already been installed from: reference:file:plugins/org.eclipse.rcp_3.8.0.v201206081200.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.737
+!MESSAGE Could not install bundle plugins/org.eclipse.update.configurator_3.3.200.v20120523-1742.jar   Bundle "org.eclipse.update.configurator" version "3.3.200.v20120523-1742" has already been installed from: reference:file:plugins/org.eclipse.update.configurator_3.3.200.v20120523-1742.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.739
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.http.proxy_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.http.proxy" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.http.proxy_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.741
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.scanner.modules_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.scanner.modules" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.scanner.modules_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.742
+!MESSAGE Could not install bundle plugins/org.apache.felix.gogo.runtime_0.8.0.v201108120515.jar   Bundle "org.apache.felix.gogo.runtime" version "0.8.0.v201108120515" has already been installed from: reference:file:plugins/org.apache.felix.gogo.runtime_0.8.0.v201108120515.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.746
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.ui.tags_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.ui.tags" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.ui.tags_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.761
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.200.v20120522-1813/   Bundle "org.eclipse.equinox.launcher.gtk.linux.x86_64" version "1.1.200.v20120522-1813" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.200.v20120522-1813
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.762
+!MESSAGE Could not install bundle plugins/org.eclipse.core.commands_3.6.1.v20120521-2332.jar   Bundle "org.eclipse.core.commands" version "3.6.1.v20120521-2332" has already been installed from: reference:file:plugins/org.eclipse.core.commands_3.6.1.v20120521-2332.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.766
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.html_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.html" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.html_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.772
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.ui.identity_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.ui.identity" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.ui.identity_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.774
+!MESSAGE Could not install bundle plugins/com.google.guava_14.0.1.jar   Bundle "com.google.guava" version "14.0.1" has already been installed from: reference:file:plugins/com.google.guava_14.0.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.775
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.api_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.api" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.api_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.779
+!MESSAGE Could not install bundle plugins/org.jsoup_1.7.3.SNAPSHOT.jar   Bundle "org.jsoup" version "1.7.3.SNAPSHOT" has already been installed from: reference:file:plugins/org.jsoup_1.7.3.SNAPSHOT.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.786
+!MESSAGE Could not install bundle plugins/org.apache.felix.gogo.command_0.8.0.v201108120515.jar   Bundle "org.apache.felix.gogo.command" version "0.8.0.v201108120515" has already been installed from: reference:file:plugins/org.apache.felix.gogo.command_0.8.0.v201108120515.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.787
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.property_1.4.100.v20120523-1956.jar   Bundle "org.eclipse.core.databinding.property" version "1.4.100.v20120523-1956" has already been installed from: reference:file:plugins/org.eclipse.core.databinding.property_1.4.100.v20120523-1956.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.791
+!MESSAGE Could not install bundle plugins/org.eclipse.swt.gtk.linux.x86_64_3.8.0.v3833.jar   Bundle "org.eclipse.swt.gtk.linux.x86_64" version "3.8.0.v3833" has already been installed from: reference:file:plugins/org.eclipse.swt.gtk.linux.x86_64_3.8.0.v3833.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.798
+!MESSAGE Could not install bundle plugins/org.eclipse.core.variables_3.2.600.v20120521-2012.jar   Bundle "org.eclipse.core.variables" version "3.2.600.v20120521-2012" has already been installed from: reference:file:plugins/org.eclipse.core.variables_3.2.600.v20120521-2012.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.798
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.ui.scanner_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.ui.scanner" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.ui.scanner_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.800
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.crawler_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.crawler" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.crawler_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.801
+!MESSAGE Could not install bundle plugins/org.apache.commons.codec_1.4.0.jar   Bundle "org.apache.commons.codec" version "1.4.0" has already been installed from: reference:file:plugins/org.apache.commons.codec_1.4.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.806
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.console_1.0.0.v20120522-1841.jar   Bundle "org.eclipse.equinox.console" version "1.0.0.v20120522-1841" has already been installed from: reference:file:plugins/org.eclipse.equinox.console_1.0.0.v20120522-1841.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.809
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.sslprobe_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.sslprobe" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.sslprobe_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.813
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.preferences_3.5.0.v20120522-1841.jar   Bundle "org.eclipse.equinox.preferences" version "3.5.0.v20120522-1841" has already been installed from: reference:file:plugins/org.eclipse.equinox.preferences_3.5.0.v20120522-1841.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.817
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.ui.hexeditor_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.ui.hexeditor" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.ui.hexeditor_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.819
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.analysis_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.analysis" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.analysis_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.825
+!MESSAGE Could not install bundle plugins/org.eclipse.compare.core_3.5.200.v20120522-1148.jar   Bundle "org.eclipse.compare.core" version "3.5.200.v20120522-1148" has already been installed from: reference:file:plugins/org.eclipse.compare.core_3.5.200.v20120522-1148.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.827
+!MESSAGE Could not install bundle plugins/org.eclipse.text_3.5.200.v20120523-1310.jar   Bundle "org.eclipse.text" version "3.5.200.v20120523-1310" has already been installed from: reference:file:plugins/org.eclipse.text_3.5.200.v20120523-1310.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.833
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.observable_1.4.1.v20120521-2332.jar   Bundle "org.eclipse.core.databinding.observable" version "1.4.1.v20120521-2332" has already been installed from: reference:file:plugins/org.eclipse.core.databinding.observable_1.4.1.v20120521-2332.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.835
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.http.requests_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.http.requests" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.http.requests_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.842
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.jar   Bundle "org.eclipse.ui.workbench.texteditor" version "3.8.0.v20120523-1310" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.843
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.ui.macros_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.ui.macros" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.ui.macros_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.845
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.databinding_1.6.0.v20120521-2332.jar   Bundle "org.eclipse.jface.databinding" version "1.6.0.v20120521-2332" has already been installed from: reference:file:plugins/org.eclipse.jface.databinding_1.6.0.v20120521-2332.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.848
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.ds_1.4.0.v20120522-1841.jar   Bundle "org.eclipse.equinox.ds" version "1.4.0.v20120522-1841" has already been installed from: reference:file:plugins/org.eclipse.equinox.ds_1.4.0.v20120522-1841.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.852
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.forms_3.5.200.v20120521-2332.jar   Bundle "org.eclipse.ui.forms" version "3.5.200.v20120521-2332" has already been installed from: reference:file:plugins/org.eclipse.ui.forms_3.5.200.v20120521-2332.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.862
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.util_1.0.400.v20120522-2049.jar   Bundle "org.eclipse.equinox.util" version "1.0.400.v20120522-2049" has already been installed from: reference:file:plugins/org.eclipse.equinox.util_1.0.400.v20120522-2049.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.866
+!MESSAGE Could not install bundle plugins/org.apache.http.client_4.2.2.jar   Bundle "org.apache.http.client" version "4.2.2" has already been installed from: reference:file:plugins/org.apache.http.client_4.2.2.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.867
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar   Bundle "org.eclipse.equinox.launcher" version "1.3.0.v20120522-1813" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.896
+!MESSAGE Could not install bundle plugins/com.ibm.icu_4.4.2.v20110823.jar   Bundle "com.ibm.icu" version "4.4.2.v20110823" has already been installed from: reference:file:plugins/com.ibm.icu_4.4.2.v20110823.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.898
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar   Bundle "org.eclipse.equinox.common" version "3.6.100.v20120522-1841" has already been installed from: reference:file:plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.902
+!MESSAGE Could not install bundle plugins/org.eclipse.help_3.6.0.v20120521-2344.jar   Bundle "org.eclipse.help" version "3.6.0.v20120521-2344" has already been installed from: reference:file:plugins/org.eclipse.help_3.6.0.v20120521-2344.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.909
+!MESSAGE Could not install bundle plugins/org.apache.commons.logging_1.1.1.jar   Bundle "org.apache.commons.logging" version "1.1.1" has already been installed from: reference:file:plugins/org.apache.commons.logging_1.1.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.918
+!MESSAGE Could not install bundle plugins/org.eclipse.jface_3.8.0.v20120521-2332.jar   Bundle "org.eclipse.jface" version "3.8.0.v20120521-2332" has already been installed from: reference:file:plugins/org.eclipse.jface_3.8.0.v20120521-2332.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.920
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.console_3.5.100.v20120521-2012.jar   Bundle "org.eclipse.ui.console" version "3.5.100.v20120521-2012" has already been installed from: reference:file:plugins/org.eclipse.ui.console_3.5.100.v20120521-2012.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.921
+!MESSAGE Could not install bundle plugins/org.apache.http.core_4.2.3.jar   Bundle "org.apache.http.core" version "4.2.3" has already been installed from: reference:file:plugins/org.apache.http.core_4.2.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.931
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.ui.httpeditor_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.ui.httpeditor" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.ui.httpeditor_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.932
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar   Bundle "org.eclipse.equinox.registry" version "3.5.200.v20120522-1841" has already been installed from: reference:file:plugins/org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.940
+!MESSAGE Could not install bundle plugins/org.eclipse.ui_3.8.0.v20120523-1546.jar   Bundle "org.eclipse.ui" version "3.8.0.v20120523-1546" has already been installed from: reference:file:plugins/org.eclipse.ui_3.8.0.v20120523-1546.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.941
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.app_1.3.100.v20120522-1841.jar   Bundle "org.eclipse.equinox.app" version "1.3.100.v20120522-1841" has already been installed from: reference:file:plugins/org.eclipse.equinox.app_1.3.100.v20120522-1841.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.941
+!MESSAGE Could not install bundle plugins/org.eclipse.swt_3.8.0.v3833.jar   Bundle "org.eclipse.swt" version "3.8.0.v3833" has already been installed from: reference:file:plugins/org.eclipse.swt_3.8.0.v3833.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.959
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench_3.8.0.v20120521-2332.jar   Bundle "org.eclipse.ui.workbench" version "3.8.0.v20120521-2332" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench_3.8.0.v20120521-2332.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.960
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility.auth_3.2.300.v20120523-2004.jar   Bundle "org.eclipse.core.runtime.compatibility.auth" version "3.2.300.v20120523-2004" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility.auth_3.2.300.v20120523-2004.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.966
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime_3.8.0.v20120521-2346.jar   Bundle "org.eclipse.core.runtime" version "3.8.0.v20120521-2346" has already been installed from: reference:file:plugins/org.eclipse.core.runtime_3.8.0.v20120521-2346.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2020-11-27 16:47:23.967
+!MESSAGE Could not install bundle plugins/com.subgraph.vega.model_1.0.0.201410142137.jar   Bundle "com.subgraph.vega.model" version "1.0.0.201410142137" has already been installed from: reference:file:plugins/com.subgraph.vega.model_1.0.0.201410142137.jar
+
+!ENTRY org.eclipse.osgi 4 0 2020-11-27 16:47:29.339
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTError: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+	at org.eclipse.swt.SWT.error(SWT.java:4387)
+	at org.eclipse.swt.browser.Mozilla.initMozilla(Mozilla.java:1939)
+	at org.eclipse.swt.browser.Mozilla.create(Mozilla.java:699)
+	at org.eclipse.swt.browser.Browser.<init>(Browser.java:99)
+	at com.subgraph.vega.ui.scanner.info.ScanInfoView.createPartControl(Unknown Source)
+	at org.eclipse.ui.internal.ViewReference.createPartHelper(ViewReference.java:386)
+	at org.eclipse.ui.internal.ViewReference.createPart(ViewReference.java:240)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.PartPane.setVisible(PartPane.java:315)
+	at org.eclipse.ui.internal.ViewPane.setVisible(ViewPane.java:534)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setVisible(PresentablePart.java:180)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:473)
+	at org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1245)
+	at org.eclipse.ui.internal.PartStack.setSelection(PartStack.java:1198)
+	at org.eclipse.ui.internal.PartStack.showPart(PartStack.java:1597)
+	at org.eclipse.ui.internal.PartStack.createControl(PartStack.java:643)
+	at org.eclipse.ui.internal.PartStack.createControl(PartStack.java:570)
+	at org.eclipse.ui.internal.PartSashContainer.createControl(PartSashContainer.java:568)
+	at org.eclipse.ui.internal.PerspectiveHelper.activate(PerspectiveHelper.java:272)
+	at org.eclipse.ui.internal.Perspective.onActivate(Perspective.java:981)
+	at org.eclipse.ui.internal.WorkbenchPage.onActivate(WorkbenchPage.java:2718)
+	at org.eclipse.ui.internal.WorkbenchWindow$28.run(WorkbenchWindow.java:3030)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.setActivePage(WorkbenchWindow.java:3011)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyOpenPage(WorkbenchWindow.java:799)
+	at org.eclipse.ui.internal.Workbench$23.runWithException(Workbench.java:1229)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3529)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3182)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3529)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3182)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.subgraph.vega.application.Application.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
