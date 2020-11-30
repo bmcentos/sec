@@ -1,7 +1,0 @@
-DOCK_PERSPECTIVE_BAR=topRight
-PERSPECTIVE_BAR_EXTRAS=com.subgraph.vega.perspectives.scanner, com.subgraph.vega.perspectives.proxy
-PERSPECTIVE_BAR_SIZE=100
-SHOW_MEMORY_MONITOR=true
-SHOW_OPEN_ON_PERSPECTIVE_BAR=false
-disableNewFastView=true
-eclipse.preferences.version=1
