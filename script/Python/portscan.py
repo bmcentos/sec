@@ -1,9 +1,20 @@
-#!/usr/bin/python
+#coding: utf-8 #Necessario para usar os comentarios 
 
-import socket,sys
+#Faz o import do modulo Socket
+import socket
 
-for porta in range(1,65535):
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    if s.connect_ex((sys.argv[1], porta)) == 0:
-        print "Porta: ",porta," [OPEN]"
-        s.close()
+# Define as portas para o teste
+portas = [ 21, 22, 23, 25, 80, 443, 8080 ]
+host = 'bancocn.com'
+
+# Realiza o loop para teste das portas
+print "PortScan in host: ", host, "\n"
+for porta in portas:
+    cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    cliente.settimeout(0.5)
+    codigo = cliente.connect_ex((host, porta))
+    if codigo == 0:
+        print porta, "OPEN"
+#    if codigo != 0:
+#        print porta, "CLOSE"
+
