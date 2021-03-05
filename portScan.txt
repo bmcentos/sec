@@ -1,0 +1,11 @@
+-Port Scanner vs Port Sweep
+	-Port scanner - Identifica e enumera serviços e portas aberts em um ou mais hosts
+		TCP Scanning = Faz uma conexão tcp (Metodo barulhento - UTILIZA FUNÇÂO CONNECT do S.O)
+		SYN Scanning = Envia apenas os pacotes SYN, caso o host responda com SYN ACK, é enviado o RST, não fechando a conexão
+		UDP Scanning = Não é muito confiavel
+		FIN Scanning = O FIN é um by pass para o SYN Scanning, pois alguns firewalls bloqueiam esses pacotes
+		ICMP Scanning = Responde se o servidor esta vivo ou não
+	-Port Sweep - Identifica com o mesmo mecanismo do port scanner, diversos hosts utilizando determinado serviço
+
+-Netcat
+	
